@@ -7,7 +7,7 @@ public class Food implements GameObject {
     private Random random = new Random();
 
     public Food() {
-        position = new Point(random.nextInt(20), random.nextInt(20));
+        respawn();
     }
 
     public Point getPosition() {
